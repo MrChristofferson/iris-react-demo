@@ -15,7 +15,6 @@ var App = React.createClass({
           bio={this.props.bio}
         />
         <NewsFeed 
-          imageUrl={this.props.imageUrl}
         />
         <FriendListAside
           friends={this.props.friends}
