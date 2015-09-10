@@ -1,0 +1,21 @@
+body {
+  background-image: url('background.png');
+  background-size: cover;
+}
+
+.profile-aside {
+    background-color: rgba(255,255,255,0.3);
+    height: 100vh;
+    float: left;
+}
+
+.friend-list-aside {
+  background-color: rgba(255,255,255,0.3);
+  height: 100vh;
+  float: left;
+}
+
+.news-feed {
+  float: left;
+}
+
