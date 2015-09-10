@@ -3,19 +3,65 @@ body {
   background-size: cover;
 }
 
+.iris-logo {
+  position: absolute;
+  bottom: 25px;
+  left: 90px;
+}
+
 .profile-aside {
     background-color: rgba(255,255,255,0.3);
     height: 100vh;
     float: left;
 }
 
+.profile-aside > * + * {
+  margin-top: 35px;
+}
+
+.profile-aside img {
+  margin: 18px 0px 0px 25px;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,0.3);
+}
+
 .friend-list-aside {
   background-color: rgba(255,255,255,0.3);
   height: 100vh;
   float: left;
+  padding: 15px;
+}
+
+.friend-list-aside div {
+  display: inline-block;
+  margin-left: 18px;
+  text-align: center;
 }
 
 .news-feed {
   float: left;
+  margin-top: 10px;
 }
 
+.thumbnail {
+  background-color: rgba(255,255,255,0.6);
+  height: 100px;
+  padding: 10px;
+}
+
+.thumbnail > * + * {
+  margin-top: 10px;
+}
+
+.thumbnail h3 {
+  margin: 0;
+}
+
+.thumbnail a {
+  margin: 6px 0px 0px 20px;
+}
+
+.thumbnail input {
+  margin: 22px 0px 0px 10px;
+  width: 300px;
+}
