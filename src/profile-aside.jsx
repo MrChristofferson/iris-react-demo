@@ -8,10 +8,10 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className="col-md-3 profile-aside">
-        <UserImg />
-        <UserGreeting />
-        <UserPosition />
-        <UserBio />
+        <UserImg imageUrl={this.props.imageUrl} />
+        <UserGreeting firstname={this.props.firstname} />
+        <UserPosition position={this.props.position} />
+        <UserBio bio={this.props.bio} />
       </div>
     );
   }

@@ -4,7 +4,8 @@ module.exports = React.createClass({
   render: function() {
     return (
       <h4>
-        Bio:
+        <b>Bio:</b>
+        <p>{this.props.bio}</p>
       </h4>
     );
   }

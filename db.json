@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Chris",
+      "imageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAU5AAAAJDhlNTI2ZDg0LWViMzgtNDQ3Zi05MjBkLThjODI3M2UzOTk5Mg.jpg",
+      "position": "Web Developer",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo necessitatibus suscipit ad voluptate, expedita non magnam aliquid ducimus repellendus pariatur dolores nobis magni molestias ut quasi, repudiandae similique provident tenetur."
+    }
+  ]
+}

@@ -5,6 +5,7 @@ module.exports = React.createClass({
     return (
       <h3>
        <b>Position: </b>
+       <p>{this.props.position}</p>
       </h3>
     );
   }
